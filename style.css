@@ -1,0 +1,20 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#1d2433;background:#f6f8fc;line-height:1.6}
+a{color:inherit}
+.hero{background:linear-gradient(135deg,#714b67 0%,#4a2f63 55%,#1f3a68 100%);color:#fff;padding:90px 24px 110px;text-align:center}
+.hero h1{font-size:clamp(2rem,5vw,3.4rem);font-weight:800;letter-spacing:-.02em}
+.hero p{max-width:720px;margin:18px auto 0;font-size:1.2rem;opacity:.92}
+.tag{display:inline-block;background:rgba(255,255,255,.15);padding:6px 14px;border-radius:999px;font-size:.85rem;margin-bottom:22px}
+.cta{display:inline-block;margin-top:34px;background:#fff;color:#4a2f63;font-weight:700;padding:16px 34px;border-radius:12px;text-decoration:none;box-shadow:0 10px 30px rgba(0,0,0,.25);transition:transform .15s}
+.cta:hover{transform:translateY(-2px)}
+.cta.alt{background:#714b67;color:#fff}
+main{max-width:1080px;margin:-60px auto 0;padding:0 24px 60px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.card{background:#fff;border-radius:16px;padding:26px;box-shadow:0 6px 24px rgba(30,40,80,.08)}
+.card h3{font-size:1.1rem;margin-bottom:8px;color:#4a2f63}
+section{margin-top:56px}
+section h2{font-size:1.7rem;margin-bottom:20px;text-align:center}
+.timeline{max-width:720px;margin:0 auto;border-left:3px solid #714b67;padding-left:24px}
+.timeline div{margin-bottom:18px}.timeline b{color:#714b67}
+.final{text-align:center;background:#fff;border-radius:20px;padding:48px 24px;box-shadow:0 6px 24px rgba(30,40,80,.08)}
+footer{text-align:center;padding:30px;color:#6b7280;font-size:.9rem}
